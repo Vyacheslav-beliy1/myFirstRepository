@@ -36,7 +36,7 @@ class ViewController: UIViewController {
         let okAction = UIAlertAction(title: "MY - OK", style: .default, handler: handler)
         alertViewController.addAction(okAction)
         
-        let cancelAction = UIAlertAction(title: "MY - CANCEL", style: .cancel, handler: handler)
+        let cancelAction = UIAlertAction(title: "MY - CANCEL", style: .destructive, handler: handler)
         alertViewController.addAction(cancelAction)
         
         self.present(alertViewController, animated: true, completion: nil)
@@ -53,7 +53,7 @@ class ViewController: UIViewController {
         let okAction = UIAlertAction(title: "MY - OK", style: .default, handler: handler)
         alertViewController.addAction(okAction)
         
-        let cancelAction = UIAlertAction(title: "MY - CANCEL", style: .cancel, handler: handler)
+        let cancelAction = UIAlertAction(title: "MY - CANCEL", style: .destructive, handler: handler)
         alertViewController.addAction(cancelAction)
         
         self.present(alertViewController, animated: true, completion: nil)

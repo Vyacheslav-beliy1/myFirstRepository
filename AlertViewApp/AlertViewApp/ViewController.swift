@@ -15,7 +15,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
        print("secondbranch")
-        
+        print("first")
     }
 
     var tempProperty = UIAlertController(title: "MyTitle", message: "MyMessage", preferredStyle: .actionSheet)
